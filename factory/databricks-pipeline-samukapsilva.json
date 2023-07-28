@@ -1,0 +1,9 @@
+{
+	"name": "databricks-pipeline-samukapsilva",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "028ead16-93b5-4a9b-85b9-fb7482353bd2",
+		"tenantId": "474b1b9e-4e5d-4f8e-919e-c4989410c9b2"
+	}
+}
