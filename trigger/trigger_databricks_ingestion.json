@@ -1,0 +1,24 @@
+{
+	"name": "trigger_databricks_ingestion",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "samukapsilva-datalake-ingestion",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2023-07-28T23:33:00",
+				"timeZone": "GMT Standard Time"
+			}
+		}
+	}
+}
